@@ -7,7 +7,6 @@ import theme from './defaultTheme'
 
 class Timepicker extends React.Component {
   static defaultProps = {
-    color: '#27718c',
     minutesPerStep: 15,
     onBlur: () => {},
     onChange: () => {},
@@ -17,10 +16,8 @@ class Timepicker extends React.Component {
 
   static propTypes = {
     className: PropTypes.string,
-    color: PropTypes.string,
     dialogClassName: PropTypes.string,
     from: PropTypes.string,
-    innerRef: PropTypes.func,
     minutesPerStep: PropTypes.number,
     onBlur: PropTypes.func,
     onChange: PropTypes.func,
@@ -92,10 +89,6 @@ class Timepicker extends React.Component {
 
   handleInputRef = (element, ...args) => {
     this.inputElement = element
-
-    if (this.props.innerRef) {
-      this.props.innerRef.call(null, element, ...args)
-    }
   }
 
   handleChange = event => this.props.onChange(event.target.value || '')
