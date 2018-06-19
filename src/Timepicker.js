@@ -18,6 +18,7 @@ class Timepicker extends React.Component {
     className: PropTypes.string,
     dialogClassName: PropTypes.string,
     from: PropTypes.string,
+    inputClassName: PropTypes.string,
     minutesPerStep: PropTypes.number,
     onBlur: PropTypes.func,
     onChange: PropTypes.func,
