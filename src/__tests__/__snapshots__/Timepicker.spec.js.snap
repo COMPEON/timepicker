@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timepicker /> opens the dialog when focused 1`] = `
+<div>
+  <input
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onTouchMove={[Function]}
+    onWheel={[Function]}
+    value="00:00"
+  />
+  <styled.div
+    innerRef={[Function]}
+    onTouchMove={[Function]}
+    onWheel={[Function]}
+    theme={
+      Object {
+        "primaryColor": "#27718c",
+      }
+    }
+  >
+    <TimepickerBlock
+      number={0}
+      onDownClick={[Function]}
+      onUpClick={[Function]}
+    />
+    :
+    <TimepickerBlock
+      number={0}
+      onDownClick={[Function]}
+      onUpClick={[Function]}
+    />
+  </styled.div>
+</div>
+`;
+
+exports[`<Timepicker /> renders correctly 1`] = `
+<div>
+  <input
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onTouchMove={[Function]}
+    onWheel={[Function]}
+    value="00:00"
+  />
+</div>
+`;
