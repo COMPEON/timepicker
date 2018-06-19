@@ -1,8 +1,10 @@
-Simple time picker component built with React and styled-components
+# COMPEON Timepicker
+
+Simple time picker component built with react and styled-components.
 
 ![Screenshot](screenshot.png)
 
-# Installation
+## Installation
 
 ```bash
 yarn add @compeon/timepicker
@@ -14,7 +16,7 @@ Install `styled-components`
 yarn add styled-components
 ```
 
-# Usage
+## Usage
 
 ```jsx
 import CompeonTimepicker from '@compeon/timepicker'
@@ -28,15 +30,15 @@ class Timepicker extends React.Component {
 
   render () {
     return (
-	   <CompeonTimepicker onChange={this.handleChange} value={this.state.value}>
-	     <input />
- 	   </CompeonTimepicker>
- 	 )
+	    <CompeonTimepicker onChange={this.handleChange} value={this.state.value}>
+	      <input />
+ 	    </CompeonTimepicker>
+ 	  )
   }
 }
 ```
 
-# Props
+## Props
 
 prop | description | type | default | example
 ------------ | ------------- | ------------- | ------------- | -------------
@@ -51,12 +53,12 @@ onFocus | Function that is called when the time picker is focussed | function ||
 to | Upper time boundary for the time range to pick from. If this prop is set, `from` has to be set as well | string || `"17:30"`
 value | The value to currently display. In case the initial value is outside of the specified time range, the time picker will immediately call `onChange` with a value that is in range | string | `"00:00"` | `"22:45"`
 
-# Author
+## Author
 
 [Gerrit Seger](https://github.com/GerritSe) (gseger@compeon.de)
 
 [COMPEON](https://compeon.de/)
 
-# License
+## License
 
 MIT

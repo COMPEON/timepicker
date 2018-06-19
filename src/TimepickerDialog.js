@@ -6,12 +6,6 @@ import ArrowUp from './ArrowUp'
 import { formatNumber } from './utils'
 import theme from './defaultTheme'
 
-type TTimepickerBlockProps = {
-  number: number,
-  onDownClick: Function,
-  onUpClick: Function
-}
-
 const TimepickerDialog = styled.div`
   align-items: center;
   background: white;
@@ -36,6 +30,7 @@ const TimepickerPart = styled.div`
   flex-direction: column;
   margin: auto 12px;
 `
+
 export const TimepickerBlock = ({ number, onDownClick, onUpClick }: TTimepickerBlockProps) => (
   <TimepickerPart>
     <ArrowUp onClick={onUpClick} size={36} />
