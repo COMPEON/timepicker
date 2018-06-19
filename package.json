@@ -1,6 +1,6 @@
 {
   "name": "@compeon/timepicker",
-  "version": "0.1.17",
+  "version": "0.0.1",
   "description": "Simple timepicker using react",
   "main": "dist/timepicker.umd.js",
   "module": "dist/timepicker.es.js",
@@ -20,7 +20,8 @@
   "scripts": {
     "compile": "rollup -c",
     "start": "start-storybook -p 9001 -c .storybook",
-    "test": "jest --watch"
+    "test": "jest",
+    "prepublishOnly": "yarn test && yarn compile"
   },
   "peerDependencies": {
     "react": "^16.4.0",
