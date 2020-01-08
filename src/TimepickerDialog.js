@@ -31,7 +31,7 @@ const TimepickerPart = styled.div`
   margin: auto 12px;
 `
 
-export const TimepickerBlock = ({ number, onDownClick, onUpClick }: TTimepickerBlockProps) => (
+export const TimepickerBlock = ({ number, onDownClick, onUpClick }) => (
   <TimepickerPart>
     <ArrowUp onClick={onUpClick} size={36} />
     {formatNumber(number)}

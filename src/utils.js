@@ -32,7 +32,7 @@ export const formatNumber = number => {
   return parsedNumber > 9 ? String(parsedNumber) : `0${String(parsedNumber)}`
 }
 
-export const formatTime = ({ hours, minutes }): string => (
+export const formatTime = ({ hours, minutes }) => (
   `${formatNumber(hours)}:${formatNumber(minutes)}`
 )
 
