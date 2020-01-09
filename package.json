@@ -31,22 +31,24 @@
     "prop-types": "^15.6.1"
   },
   "devDependencies": {
-    "@storybook/react": "^3.4.4",
-    "babel-core": "^6.26.3",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-external-helpers": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "babel-loader": "^8.0.6",
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.3",
-    "jest": "^23.1.0",
-    "jest-styled-components": "^5.0.1",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "rollup": "^1.28.0",
-    "rollup-plugin-babel": "^3.0.4",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.3",
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-babel": "^4.3.3",
     "styled-components": "^3.3.2"
   },
   "jest": {
@@ -57,7 +59,9 @@
     "setupFiles": [
       "<rootDir>/jestSetup.js"
     ],
-    "setupTestFrameworkScriptFile": "<rootDir>/jestPlugins.js",
+    "setupFilesAfterEnv": [
+      "<rootDir>/jestPlugins.js"
+    ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
