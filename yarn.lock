@@ -330,11 +330,11 @@
   integrity sha512-/V72F4Yp/qmHaTALizEm9Gf2eQHV3QyTL3K0cNfijwnMnb1L+LDlAubb/ZnSdGAVzVSWakujHYs1I26x66sMeQ==
 
 "@babel/plugin-external-helpers@^7.7.4":
-  version "7.7.4"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-external-helpers/-/plugin-external-helpers-7.7.4.tgz#8aa7aa402f0e2ecb924611cbf30942a497dfd17e"
-  integrity sha512-RVGNajLaFlknbZLutaP/uv7Q+xmVs2LMlEWFXbcjLnwtBdPqAVpV3nzYIAJqri/VjJCUrhG5nALijtg0aND+XA==
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-external-helpers/-/plugin-external-helpers-7.8.3.tgz#5a94164d9af393b2820a3cdc407e28ebf237de4b"
+  integrity sha512-mx0WXDDiIl5DwzMtzWGRSPugXi9BxROS05GQrhLNbEamhBiicgn994ibwkyiBH+6png7bm/yA7AUsvHyCXi4Vw==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
 "@babel/plugin-proposal-async-generator-functions@^7.7.4":
   version "7.7.4"
