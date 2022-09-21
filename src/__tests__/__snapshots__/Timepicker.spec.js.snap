@@ -15,7 +15,7 @@ exports[`<Timepicker /> opens the dialog when focused 1`] = `
     onTouchMove={[Function]}
     onWheel={[Function]}
     theme={
-      Object {
+      {
         "primaryColor": "#27718c",
       }
     }
