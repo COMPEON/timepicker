@@ -1,5 +1,5 @@
 {
-  "name": "@compeon/timepicker",
+  "name": "@compeon-os/timepicker",
   "version": "0.0.8",
   "description": "Simple timepicker using react",
   "main": "dist/timepicker.umd.js",
