@@ -7,7 +7,7 @@ Simple time picker component built with react and styled-components.
 ## Installation
 
 ```bash
-yarn add @compeon/timepicker
+yarn add @compeon-os/timepicker
 ```
 
 Install `styled-components`
@@ -19,7 +19,7 @@ yarn add styled-components
 ## Usage
 
 ```jsx
-import CompeonTimepicker from '@compeon/timepicker'
+import CompeonTimepicker from '@compeon-os/timepicker'
 
 class Timepicker extends React.Component {
   state = {
